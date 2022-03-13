@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="ex08Info" method="post">
+<!--  직업 : 선택해서 가져오는 select 태그
+		성별 : radio type
+		취미 : checkbox type -->
+
+<h2> 직업 </h2>
+<select name = "job">
+<!-- 초기화된 값 or 전달될 값 -->
+<option value="네이버 개발자"> 네이버 개발자 </option>
+<option value="배달의 민족 MD"> 배달의 민족 MD </option>
+<option value="스마트인재개발원 강사"> 스마트인재개발원 강사 </option>
+<option value="강남역 건물주"> 강남역 건물주 </option>
+</select>
+
+<h2> 성별 </h2>
+남자 <input type="radio" name="gender" value="남자">
+여자 <input type="radio" name="gender" value="여자">
+
+<h2> 취미 </h2>
+<input type="checkbox" name="hobby" value="영화감상" > 영화감상 <br> 
+<input type="checkbox" name="hobby" value="맛집탐방">  맛집탐방 <br> 
+<input type="checkbox" name = "hobby" value="카페탐방"> 카페탐방 <br>
+<input type="checkbox" name = "hobby" value="수다떨기"> 수다떨기 <br>
+
+
+<input type="submit" value="SEND">
+
+</form>
+</body>
+</html>
